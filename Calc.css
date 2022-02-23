@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.calc{
+    width:320px;
+    margin:100px auto;
+}
+#screen{
+
+    background-color: #e2e2e2;
+    padding:10px;
+    
+    width:319px;
+    color:rgb(32, 31, 31);
+    font-size: 45px;
+    word-spacing: 30px;
+}
+.button{
+    background: #333;
+    height:80px;
+    width:80px;
+    color:white;
+    border: 1px solid black;
+
+}
+.bg-btn{
+    background: #333;
+    height: 80px;
+    width:160px;
+    color:white;
+    border:1px solid black;
+}
+@media only screen and(min-width:600px) {
+    .button{
+        background: blueviolet;
+    }
+}
